@@ -1,0 +1,14 @@
+.modal {
+    width: 50vw;
+    position: absolute;
+    background-color: black !important;
+    border-radius: 15px !important;
+    left: 40px;
+    right: 40px;
+    top: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    outline: none;
+    padding: 10px;
+}
