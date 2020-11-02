@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GDriveCRUD/static/css/main.b1122acf.chunk.css",
+    "main.js": "/GDriveCRUD/static/js/main.3dba8025.chunk.js",
+    "main.js.map": "/GDriveCRUD/static/js/main.3dba8025.chunk.js.map",
+    "runtime-main.js": "/GDriveCRUD/static/js/runtime-main.51cb18bc.js",
+    "runtime-main.js.map": "/GDriveCRUD/static/js/runtime-main.51cb18bc.js.map",
+    "static/js/2.4fa88230.chunk.js": "/GDriveCRUD/static/js/2.4fa88230.chunk.js",
+    "static/js/2.4fa88230.chunk.js.map": "/GDriveCRUD/static/js/2.4fa88230.chunk.js.map",
+    "index.html": "/GDriveCRUD/index.html",
+    "static/css/main.b1122acf.chunk.css.map": "/GDriveCRUD/static/css/main.b1122acf.chunk.css.map",
+    "static/js/2.4fa88230.chunk.js.LICENSE.txt": "/GDriveCRUD/static/js/2.4fa88230.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51cb18bc.js",
+    "static/js/2.4fa88230.chunk.js",
+    "static/css/main.b1122acf.chunk.css",
+    "static/js/main.3dba8025.chunk.js"
+  ]
+}
