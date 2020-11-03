@@ -14,8 +14,8 @@ function Add({triggerPush, activeCrumb}) {
          setInputValue(e.target.value);
         setLink(`${activeCrumb}/${e.target.value}`)
     }
-
-     return (
+ 
+    return (
         <div>
             <Modal className={classes.modal} isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)} >
                                      <div className="ui card" style={{width : 'inherit'}}>
@@ -36,15 +36,13 @@ function Add({triggerPush, activeCrumb}) {
                             <button disabled={!inputValue} className="ui green button" onClick={() => { triggerPush(link); setmodalIsOpen(false); setInputValue(null) }} >Create</button>
                                                 </span>
                                             </div>
-                                            
-                                            </div> 
+                                             </div> 
             </Modal> 
              <button className="ui green button" onClick={() => setmodalIsOpen(true)}>
                  Add New 
-                 <span style = {{marginLeft:'10px'}} ><i class="plus icon"></i></span>
-                 </button>
-            
-        </div>
+                 <span style = {{marginLeft:'10px'}} ><i className="plus icon"></i></span>
+             </button>
+         </div>
     )
 }
 

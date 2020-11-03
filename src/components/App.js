@@ -10,26 +10,34 @@ function App() {
     const [index, setIndex] = useState(null);
     const [activeCrumb, setActiveCrumb] = useState('');
     
-
+    //Adding a new folder into the parent foldercontainer 
     const triggerPush = (link) => {
          setFolderArray([...folderArray,link])
      }
     
+    //Get the index of the clicked folder
     const getIndex = (index) => {
         setIndex(index);
     }
 
+    //Get the active crumb on the breadcrumb list
     const getActiveCrumb = (crumbList)=> {
         setActiveCrumb(crumbList.join('/'));
     }
 
+    //delete a folder from the array of folders
     const deleteFolder = (folder) => {
+        console.log(folder)
+        console.log(folderArray)
         var newArr = folderArray.filter(element => {
             return !element.includes(folder);
+             
+
         })
         setFolderArray(newArr);
     }
 
+    //Edit the name of the folder on edit button click
     const editFolder = (newName, folder) => {
  
         var x = folder.split('/');
@@ -44,10 +52,11 @@ function App() {
             return element;
                 
         })
-         setFolderArray(newArray);
+        setFolderArray(newArray);
         
     }
 
+    //Set index to null after adding the clicked folder into the crumb list
     const postUpdateIndex = () => {
         setIndex(null);
     }
